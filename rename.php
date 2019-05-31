@@ -4,7 +4,7 @@ $host = "localhost"; // server
 $user = "user"; // username of the db
 $pass = "pass"; //pass of the database
 $db   = "database"; // name of your database
-$wordpressPrefix = "".$wordpressPrefix."";
+$wordpressPrefix = "prefix"; //prefix of the wp
 
 try {
 	$connect = new PDO("mysql:host={$host};dbname={$db}", $user, $pass);
